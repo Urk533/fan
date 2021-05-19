@@ -1,0 +1,192 @@
+
+.personal {
+	background-color: yellow;
+/*Changes two paragraphs(About Myself and About Nepal)*/
+}
+p{
+	color: white;
+	font-family: Georgia, Clason, 'Times New Roman';
+	font-weight: normal;
+	background-color: red;
+	width: 480px;
+	text-align: justify;
+	border-style: solid;
+	border-color: red;
+	padding: 30px 32px 29px 33px;
+	margin-top: 11px;
+	margin-left: 30px;
+	font-size: 1.3em;
+	height: 320px;
+	animation-name: example;
+	animation-duration: 4s;
+	position: relative;
+	animation-iteration-count: 1;
+	
+
+	
+    
+    
+}
+@keyframes example{
+   0%{background-color:red; left:0px; top:0px;}
+   25%{background-color:yellow; left:200px; top:0px;}
+   50%{background-color:orange; left:160px; top:280px;}
+   75%{background-color:blue; left:270px; top:200px;}
+   100%{background-color:red; left:0px; top:0px;}
+}
+
+
+h2{
+	color: blue;
+	
+
+}
+[href]{
+	color: green;
+}
+.city-list li{
+	background-color: crimson;
+	color: white;
+	text-align: justify;
+	padding: 20px 20px 20px 20px;
+	border-style: solid;
+	border-color: blue;
+	width: 200px;
+	margin: 10px 10px;
+
+/*First Top Heading (About Myself)*/
+}
+h1.mybio{
+	color: grey;
+	background-color: pink;
+	width: 200px;
+	padding: 7px 7px;
+	border-color: crimson;
+	border-style: solid;
+	border-width: 3px;
+	position: relative;
+	top: 15;
+	right: 489;
+	display: inline-block;
+	float: left;
+	transform: skewX(10deg);
+
+
+    
+
+
+}
+.country-name{
+	color: white;
+}
+/*This doesnt work.*/
+.bruno{
+	font-weight: bold; 
+}
+.player-list li{
+	background-color: yellow;
+	color: blue;
+	width: 220px;
+	text-align: justify;
+
+
+}
+h3.city{
+	color: darkgreen;
+	width: 140px;
+	text-align: justify;
+}
+.ph-email{
+	color: black ;
+	background-color: peachpuff ;
+	text-align: justify; 
+/*This class "ajay" doesnt work.*/
+}
+.ajay{
+	font-weight: bold: orange;
+}
+}
+#play li{
+}
+.hindi-movie li{
+	text-align: center;
+	color: blue;
+	background-color: yellow;
+
+}
+h1#nepal{
+	color: yellow;
+	background-color: blue;
+}
+body{
+	background-color: white;
+	
+
+	
+
+
+}
+.ling a{
+	background-color: pink;
+	
+}
+.container{
+	height: 300px;
+	width: 250px;
+	display: flex;
+	background-color: whitesmoke;
+	align-items: stretch;
+	
+
+
+}
+.box{
+	height: 90px;
+	background-color: red;
+	border: 1px solid lightgrey;
+	display: inline-block;
+	
+
+	
+}
+img{
+	width: 655px;
+	display: block;
+	height: 340px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png);
+	
+	
+
+	
+}
+@media only screen and (min-resolution: 150dpi), (max-resolution: 360dpi){
+	.img{
+
+	}
+
+}
+.hobby-img{
+	background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png), url("https://images.unsplash.com/photo-1605312079264-4b1a0475b99c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+	width: 240px;
+	/*height narakhe ni hunxa*/
+	height: 130px;
+	background-position: right bottom, left top;
+	background-repeat: no-repeat, repeat;
+	background-size: 300px, 80px;
+	padding: 12px;
+
+}
+a:visited{
+	text-decoration: underline;
+	color: purple;
+
+}
+a{
+	color: grey;
+}
+/*form 1 css here*/
+
+
+
+
+
